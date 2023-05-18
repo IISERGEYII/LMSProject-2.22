@@ -1,4 +1,6 @@
-package model;
+package com.company.model;
+
+import com.company.view.repository.CourseEnrollmentRepository;
 
 import java.util.ArrayList;
 
@@ -11,6 +13,14 @@ public class CourseEnrollment {
 
     public CourseEnrollment(Student student, Course course) {
         this.id = lastID++;
+        this.student = student;
+        this.course = course;
+        list.add(this);
+        CourseEnrollmentRepository.insertEnrollment(student.getId(),course.getId());
+    }
+
+    public CourseEnrollment(int id, Student student, Course course) {
+        this.id = id;
         this.student = student;
         this.course = course;
         list.add(this);

@@ -1,8 +1,8 @@
-package view.course;
+package com.company.view.course;
 
-import model.Course;
-import view.MainFrame;
-import view.repository.CourseRepository;
+import com.company.model.Course;
+import com.company.view.MainFrame;
+import com.company.view.repository.CourseRepository;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

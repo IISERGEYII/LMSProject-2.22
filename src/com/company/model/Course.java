@@ -1,4 +1,4 @@
-package model;
+package com.company.model;
 
 import javax.swing.table.DefaultTableModel;
 import java.util.ArrayList;
@@ -39,6 +39,15 @@ public class Course {
                         course.description
                 }
         );
+    }
+
+    public static Course getCourseById(int id){
+        for (Course course: list) {
+            if (course.id == id){
+                return course;
+            }
+        }
+        return null;
     }
 
     public CourseEnrollment addStudent(Student student){

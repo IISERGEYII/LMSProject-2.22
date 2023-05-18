@@ -1,4 +1,4 @@
-package model;
+package com.company.model;
 
 import javax.swing.table.DefaultTableModel;
 import java.util.ArrayList;
@@ -39,6 +39,15 @@ public class Student {
                         student.surname
                 }
         );
+    }
+
+    public static Student getStudentById(int id){
+        for (Student student : list) {
+            if (student.id == id) {
+                return student;
+            }
+        }
+        return null;
     }
 
     @Override

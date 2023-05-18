@@ -1,8 +1,8 @@
-package view.student;
+package com.company.view.student;
 
-import model.Student;
-import view.MainFrame;
-import view.repository.StudentRepository;
+import com.company.model.Student;
+import com.company.view.MainFrame;
+import com.company.view.repository.StudentRepository;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

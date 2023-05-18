@@ -1,5 +1,7 @@
-package view;
+package com.company.view;
 
+
+import com.company.Main;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -24,8 +26,18 @@ public class MainMenuBar extends JMenuBar {
         courses.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-//                Main.mainFrame.remove(MainFrame.studentListPanel);
-//                Main.mainframe.add(MainFrame.courseListPanel);
+                Main.mainFrame.remove(MainFrame.studentListPanel);
+                Main.mainFrame.add(MainFrame.courseListPanel);
+                Main.mainFrame.pack();
+            }
+        });
+
+        students.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                Main.mainFrame.remove(MainFrame.courseListPanel);
+                Main.mainFrame.add(MainFrame.studentListPanel);
+                Main.mainFrame.pack();
             }
         });
 
