@@ -18,7 +18,7 @@ public class ChooseCourse extends JFrame {
         panel = new  CourseListPanel();
         add(panel);
 
-        JButton button = new JButton("Заччислить");
+        JButton button = new JButton("Зачислить");
         add(button);
 
         button.addActionListener(new ActionListener() {

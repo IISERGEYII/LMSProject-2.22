@@ -3,6 +3,7 @@ package com.company.view.course;
 import com.company.model.Course;
 import com.company.model.Student;
 import com.company.view.repository.CourseRepository;
+import com.company.view.student.ChooseStudent;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -36,6 +37,7 @@ public class CourseJPopUpMenu extends JPopupMenu {
 
     static class MenuItemListener implements ActionListener {
 
+
         @Override
         public void actionPerformed(ActionEvent e) {
             int index = table.getSelectedRow();
@@ -45,7 +47,7 @@ public class CourseJPopUpMenu extends JPopupMenu {
             switch (e.getActionCommand()) {
                 case "save" -> CourseRepository.updateCourse(id,title,description);
                 case "delete" -> CourseRepository.deleteCourse(id);
-                case "enroll" -> new ChooseCourse(Student.getStudentById(id));
+                case "enroll" -> new ChooseStudent(Course.getCourseById(id));
             }
 
 

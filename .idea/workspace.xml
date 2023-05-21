@@ -4,30 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1f39ebc-02fb-40b9-8eb0-dc2fc4469387" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/view/course/ChooseCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/view/repository/CourseEnrollmentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/postgresql_42_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_5_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c1f39ebc-02fb-40b9-8eb0-dc2fc4469387" name="Changes" comment="Fl">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/New Java Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/New Java Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/AcademicPerformance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/AcademicPerformance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/CourseEnrollment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/CourseEnrollment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/view/MainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/MainMenuBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/view/MainMenuBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/course/AddCourseFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/view/course/AddCourseFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/course/AddCoursePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/view/course/AddCoursePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/course/CourseListPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/view/course/CourseListPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/repository/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/view/repository/CourseRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/view/repository/StudentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/student/AddStudentFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/view/student/AddStudentFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/student/AddStudentPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/view/student/AddStudentPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/student/StudentJPopUpMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/view/student/StudentJPopUpMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/student/StudentListPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/view/student/StudentListPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +21,25 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f338298e-fa32-4540-8c75-0bd9a043067d" />
+        <option name="url" value="https://github.com/alinaShirikhanova/LMSProject-2.22.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -84,6 +80,35 @@
       <option name="presentableId" value="Default" />
       <updated>1676484485138</updated>
     </task>
+    <task id="LOCAL-00001" summary="t">
+      <created>1684435411362</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684435411362</updated>
+    </task>
+    <task id="LOCAL-00002" summary="t">
+      <created>1684438027289</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684438027289</updated>
+    </task>
+    <task id="LOCAL-00003" summary="tt">
+      <created>1684675648396</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684675648396</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fl">
+      <created>1684676181820</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684676181820</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +121,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="t" />
+    <MESSAGE value="tt" />
+    <MESSAGE value="акп" />
+    <MESSAGE value="Fl" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fl" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
